@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Swift Collections is an open-source package of data structure implementations for the Swift programming language."
   spec.homepage     = "https://github.com/apple/swift-collections"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
-  spec.license      = { type: 'MIT', file: 'LICENSE.txt' }
+  spec.license      = { type: 'Apache2', file: 'LICENSE.txt' }
   spec.swift_versions = "5.6"
 
   spec.ios.deployment_target = "13.0"
