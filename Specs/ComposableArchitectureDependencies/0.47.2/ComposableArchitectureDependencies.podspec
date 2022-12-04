@@ -5,6 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.pointfree.co/collections/composable-architecture"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
+  spec.module_name  = "Dependencies"
   spec.swift_versions = "5.6"
 
   spec.ios.deployment_target = "13.0"
